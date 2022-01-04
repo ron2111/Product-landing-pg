@@ -1,0 +1,64 @@
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 19px;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 6, 10);
+    opacity: 0.9;
+   
+}
+
+.nav-link{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: auto 15px auto;
+}
+.nav-link:hover{
+background-color: rgba(218, 9, 155, 0.897);
+padding: 6px;
+  border-radius: 10px;
+    cursor: pointer;
+}
+.vid {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#contact {
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(218, 9, 155, 0.897);
+    color: white;
+    border-radius: 8px;
+}
+
+
+input {
+    background-color: #d1d1d1;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit {
+    font-size: 15px;
+     width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+background-color: #45a049;
+}
